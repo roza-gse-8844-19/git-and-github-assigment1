@@ -30,6 +30,7 @@ print("Number of words:", len(words))
 print("\n--- Slicing ---")
 print("First three characters:", name[:3])
 print("Last two characters:", name[-2:])
+print("Slice using two negative indexes:", name[-5:-2])
 
 # 5. If-else condition
 print("\n--- Age Check ---")

@@ -36,6 +36,8 @@ print("Slice using two negative indexes:", name[-5:-2])
 print("\n--- Age Check ---")
 if age >= 18:
     print("You are an adult.")
+elif age >= 60:
+    print("you are an adult and old"
 else:
     print("You are under 18.")
 

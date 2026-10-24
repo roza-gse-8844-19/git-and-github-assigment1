@@ -46,7 +46,7 @@ The project follows a basic Git workflow:
 9. Document the project in `README.md`.
 10. Connect the local repository to GitHub using `git remote`.
 11. Upload the commits to GitHub using `git push`.
-
+12. Download and integrate remote changes using `git pull`.
 ## Useful Git Commands
 
 | Command | Description |
@@ -58,6 +58,7 @@ The project follows a basic Git workflow:
 | `git log --oneline` | Displays a concise commit history |
 | `git remote -v` | Lists configured remote repositories |
 | `git push -u origin main` | Pushes the `main` branch to the remote repository and sets its upstream |
+| `git pull origin main` | Fetches and integrates changes from the remote main branch |
 
 ## Getting Started
 
